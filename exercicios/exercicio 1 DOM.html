@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2 id="page-title">Título</h2>
+    <p id="paragraph" class="paragrafo">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p id="second-paragraph" class="paragrafo">Segundo parágrafo!</p>
+
+    <script>
+      var paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+      document.querySelector('#page-title').innerText = 'Summer Wars';
+      paragraph.innerText = 'Um anime muito legal';
+      document.querySelectorAll('#subtitle')[0].innerText = 'Sinópse';
+      document.getElementsByTagName('p')[1].style.color = 'green';
+      document.getElementsByTagName('h4')[0].style.color = 'purple';
+    </script>
+  </body>
+</html>
